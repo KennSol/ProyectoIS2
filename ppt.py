@@ -16,7 +16,7 @@ def determinar_ganador(usuario, programa):
         return -1
 
 def jugar():
-    print("Juguemos Piedra, Papel o Tijeras (3 rondas)")
+    print("Juego: Piedra, Papel o Tijeras (3 rondas)")
     
     # Pedir jugadas al usuario
     usuario = []
