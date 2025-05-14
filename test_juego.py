@@ -36,7 +36,7 @@ class TestDeterminarGanador(unittest.TestCase):
 
     def test_tijera_vs_piedra(self):
         """Prueba: Tijera vs. Piedra = Piedra gana (-1)"""
-        resultado = determinar_ganador("tijera", "piedra")
+        resultado = determinar_ganador("tkjdfsñ", "piedra")
         self.assertEqual(resultado, -1)
 
     def test_tijera_vs_papel(self):
